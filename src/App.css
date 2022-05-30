@@ -62,6 +62,8 @@ body {
 }
 
 .header {
+  position: sticky;
+  top: 0px;
   margin-top: 20px;
 }
 
@@ -192,9 +194,9 @@ body {
 .status span:first-of-type {
   margin-right: 20px;
 }
-.logo img {
-  width: 230px;
-}
+/* .logo img {
+  /* width: 230px; 
+} */
 .btnj {
   border: 1px solid #225779;
   background-color: #225779;
@@ -436,4 +438,115 @@ body {
   padding-left: 14px;
   display: grid;
   border: 0px;
+}
+
+.btnlink {
+  margin-top: 30px;
+  margin-left: 49%;
+  text-decoration: none;
+  font-style: bold;
+  color: #225779;
+  border: none;
+}
+
+/* ramesh uppula css */
+
+.box-example {
+  width: 495px;
+  border: 1px rgb(17, 81, 121);
+  height: 68px;
+  margin-top: 25px;
+  margin-left: 77px;
+}
+
+.box-ex {
+  width: 100px;
+  height: 38px;
+  margin-top: 25px;
+  margin-left: 415px;
+  border: none;
+  color: #225779;
+}
+
+.whodo {
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.downware {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.comerades img {
+  margin-top: 25px;
+  position: absolute;
+}
+
+/* 
+.comerades-side{
+  display: inline-block;
+  overflow-x: auto ;
+  vertical-align: middle;
+}  */
+
+/* footers css from om */
+
+.footer-section {
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.logoF img {
+  width: 180px;
+}
+.list-item {
+  margin-top: 15px;
+  list-style: none;
+}
+.section2 h5 {
+  font-size: 27px;
+  color: #225779;
+}
+.list-item div {
+  color: #000000;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.forminput input {
+  border: none;
+  width: 250px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #225779;
+}
+.forminput textarea {
+  border-radius: 5px;
+  margin-top: 18px;
+  border: 2px solid #225779;
+}
+.copyright {
+  background-color: #225779;
+  margin-top: 100px;
+}
+.copyright p {
+  padding: 10px;
+  width: 100%;
+  margin-left: 30px;
+  color: #ffffff;
+  margin-bottom: 0%;
+  font-size: 25px;
+}
+.submitt {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 20px;
+  box-shadow: 8px 5px 10px #e5e5e5;
+  width: 80px;
+  border-radius: 7px;
+  background-color: #225779;
+}
+
+.footer-main{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 25px;
 }

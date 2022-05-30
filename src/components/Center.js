@@ -8,6 +8,7 @@ import teddy from "./Image/teddy.png";
 import flower from "./Image/flowers.png";
 import watch from "./Image/watch.png";
 import batman from "./Image/lego Batman.png"
+import "../App.css";
 
 export default function Center(){
     return(
@@ -62,7 +63,7 @@ export default function Center(){
            </div>
            </span>
            <div className="explo">
-               <button className="btn-link explo">Explore more <span className="bi bi-arrow-right-short"></span></button>
+               <button className="btnlink">Explore more <span className="bi bi-arrow-right-short"></span></button>
            </div>
         </div>
     )
