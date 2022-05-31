@@ -460,6 +460,7 @@ body {
 }
 
 .box-ex {
+  font-weight: 500;
   width: 100px;
   height: 38px;
   margin-top: 25px;
