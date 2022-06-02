@@ -5,7 +5,7 @@ import Choose from "./Image/ChooseUnbox.png";
 import fast from "./Image/fast-delivery.png";
 import support from "./Image/support.png";
 import verified from "./Image/verified.png"
-
+import Box from "./Image/box (4).png";
 
 export default function Middleware(){
     return(
@@ -37,9 +37,18 @@ export default function Middleware(){
                     </div>
                 </div>
                 <div className="col-3 supprt">
+                <span>
                     <img src={support} alt="support" />
                     <h6>24*7 services</h6>
-                    <div className="communderline"></div>
+                    <div className="communderline">
+                    </div>   
+                </span>   
+                <span>
+                    <img src={Box} alt="Box" className="mt-5"/>
+                    <h6>Careful Packaging</h6>
+                    <div className="communderline">
+                    </div>   
+                </span>     
                 </div>
             </div>
         </div>
