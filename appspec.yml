@@ -1,21 +1,23 @@
 version: 0.0
 os: linux
+
 files:
-  - source: Config/config.txt
-    destination: /webapps/Config
-  - source: source
-    destination: /webapps/myApp
+  - source: /
+    destination: /home/ubuntu/aws-code-deploy-demo
+
 hooks:
+  ApplicationStop:
+    - location: aws-scripts/app-stop.sh
+      timeout: 300
+
   BeforeInstall:
-    - location: Scripts/UnzipResourceBundle.sh
-    - location: Scripts/UnzipDataBundle.sh
+    - location: aws-scripts/before-install.sh
+      timeout: 300
+
   AfterInstall:
-    - location: Scripts/RunResourceTests.sh
-      timeout: 180
+    - location: aws-scripts/after-install.sh
+      timeout: 300
+
   ApplicationStart:
-    - location: Scripts/RunFunctionalTests.sh
-      timeout: 3600
-  ValidateService:
-    - location: Scripts/MonitorService.sh
-      timeout: 3600
-      runas: codedeployuser
+    - location: aws-scripts/app-start.sh
+      timeout: 300
