@@ -19,27 +19,25 @@ export default function Middleware() {
           <img src={Choose} alt="Choose" className="choose" />
         </div>
         <div className="rowsE1">
-          <div className="row" style={{ paddingBottom: "40px" }}>
+          <div className="row" style={{ paddingTop: "30px" }}>
             <div className="col-2">
               <div className="fastd">
                 <div className="row">
-                  <img src={fast} alt="fast" className="mt-5" />
+                  <img src={fast} alt="fast" className="mt-5 " />
                   <div style={{ position: "absolute", marginTop: "60px" }}>
                     <h6 className="col-2">Fast delivery</h6>
                     <div className="communderline"></div>
-                    <p style={{ fontSize: "10px", marginLeft: "80px" }}>
-                      {" "}
+                    <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
                       Lorem ipsum dolor sit amet consectetur?
                     </p>
                   </div>
                 </div>
                 <div className="row">
-                  <img src={verified} alt="support" className="mt-5" />
+                  <img src={verified} alt="support" className="mt-5 back" />
                   <div style={{ position: "absolute", marginTop: "60px" }}>
                     <h6 className="col-2">Verified brands</h6>
-                    <div className="communderline"></div>
-                    <p style={{ fontSize: "10px", marginLeft: "80px" }}>
-                      {" "}
+                    <div className="communderline "></div>
+                    <p className="mt-2 Pfamily" style={{ marginLeft: "80px" }}>
                       Lorem ipsum dolor sit amet consectetur?
                     </p>
                   </div>
@@ -51,11 +49,10 @@ export default function Middleware() {
                 <img src={India} alt="India" className="mt-5" />
                 <div style={{ position: "absolute", marginTop: "47px" }}>
                   <h6 style={{ display: "inline" }} className="col-2">
-                    Pan India Fullfillment
+                    Pan India fullfillment
                   </h6>
                   <div className="communderline"></div>
-                  <p style={{ fontSize: "10px", marginLeft: "80px" }}>
-                    {" "}
+                  <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
                     Lorem ipsum dolor sit amet consectetur?
                   </p>
                 </div>
@@ -67,8 +64,7 @@ export default function Middleware() {
                     24*7 services
                   </h6>
                   <div className="communderline"></div>
-                  <p style={{ fontSize: "10px", marginLeft: "80px" }}>
-                    {" "}
+                  <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
                     Lorem ipsum dolor sit amet consectetur?
                   </p>
                 </div>
