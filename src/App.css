@@ -241,8 +241,8 @@ body {
 .Exp {
   width: 828px;
   height: 88px;
-  margin-left: 12%;
-  margin-top: 45px;
+  margin-left: 20%;
+  margin-top: 25%;
 }
 .videoframe {
   width: 100%;
@@ -308,7 +308,7 @@ body {
 }
 .plenty img {
   width: 800px;
-  margin-left: 16%;
+  margin-left: 25%;
   margin-top: 58px;
 }
 .arrangebtn {
@@ -328,7 +328,7 @@ body {
 }
 
 .cards {
-  margin-left: 0px;
+  margin-left: 10%;
 }
 
 .para {
@@ -546,7 +546,7 @@ body {
   background-color: #225779;
 }
 
-.footer-main{
+.footer-main {
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 25px;
