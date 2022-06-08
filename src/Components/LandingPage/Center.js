@@ -8,7 +8,7 @@ import teddy from "./Image/teddy.png";
 import flower from "./Image/flowers.png";
 import watch from "./Image/watch.png";
 import batman from "./Image/lego Batman.png";
-import "../App.css";
+import "./Landing.css";
 
 export default function Center() {
   return (
