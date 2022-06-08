@@ -7,21 +7,21 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: aws-scripts/app-start.sh
+    - location: app-start.sh
       timeout: 300
 
   BeforeInstall:
-    - location: aws-scripts/before-install.sh
+    - location: before-install.sh
       timeout: 300
 
   AfterInstall:
-    - location: aws-scripts/after-install.sh
+    - location: after-install.sh
       timeout: 300
 
   ApplicationStart:
-    - location: aws-scripts/app-start.sh
+    - location: app-start.sh
       timeout: 300
 
   ApplicationStop:
-    - location: aws-scripts/app-stop.sh
+    - location: app-stop.sh
       timeout: 300
