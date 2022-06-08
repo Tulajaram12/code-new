@@ -1,5 +1,5 @@
 import React from 'react';
-import "../App.css";
+import "./Landing.css";
 import contentLogo from './Image/contentLogo.png';
 
 export default function content() {
