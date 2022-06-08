@@ -6,6 +6,7 @@ import Center from "./Components/LandingPage/Center.js";
 import Middleware from "./Components/LandingPage/Middle";
 import Downware from "./Components/LandingPage/Downware";
 import Footer from "./Components/LandingPage/Footer";
+import Custom from "./Components/LandingPage/Custom";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Middleware />
         <Center />
         <Downware />
+        <Custom />
         <hr />
         <Footer />
       </div>

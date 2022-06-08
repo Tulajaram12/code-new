@@ -15,11 +15,7 @@ function App() {
             <img src={Towhom} height={150} width={540} />
           </div>
           <div className="box-example">
-            Choose your gifting person, may it be your new
-            <br />
-            employee, best friend, colleague, father or mother!We
-            <br />
-            have it all that gives everyone an Unboxing experience!
+            Choose your gifting person, may it be your new employee, best friend, colleague, father or mother! We have it all that gives everyone an Unboxing experience!
           </div>
           <div>
             <button className="box-ex">
