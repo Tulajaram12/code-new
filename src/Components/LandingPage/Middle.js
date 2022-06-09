@@ -9,6 +9,7 @@ import India from "./Image/india.png";
 import Baloon from "./Image/Baloon.png";
 import Gifts from "./Image/Gifts.png";
 import Box from "./Image/Box.png";
+import playbutton from "./Image/playicon.png";
 
 export default function Middleware() {
   return (
@@ -16,6 +17,7 @@ export default function Middleware() {
       <div>
         <img src={Experience} alt="Experience" className="Exp" />
         <img src={videoframe} alt="videoframe" className="videoframe" />
+        <img src={playbutton} alt="playicon" className="playicon"></img>
       </div>
       <div className="rowsE">
         <div>

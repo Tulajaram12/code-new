@@ -249,6 +249,13 @@ body {
   height: 400px;
   /* margin-left: 40px; */
 }
+.playicon {
+  width: 4%;
+  height: 4%;
+  margin-left: 49%;
+  margin-top: -481px;
+}
+
 .rowsE {
   margin-top: 20px;
 }
@@ -568,4 +575,44 @@ body {
   position: absolute;
   margin-top: 220px;
   margin-left: 650px;
+}
+/*  ramesh green bloard added */
+
+.greenBoard {
+  background-image: url("./Image/green board.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1495px;
+  height: 331px;
+  margin-top: 10px;
+}
+.inimg {
+  margin-top: 51px;
+  height: 70px;
+  width: 1041px;
+  margin-left: 240px;
+}
+.shareus {
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 45px;
+  height: 47px;
+  width: 495px;
+}
+.sharebtn {
+  margin-left: 460px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #225779;
+}
+.enquirebtn {
+  margin-left: 100px;
+  margin-top: 27px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #57cc98;
+  border: 3px solid #225779;
 }

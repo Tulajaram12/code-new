@@ -11,9 +11,9 @@ export default function Custom() {
         <img
           src={yourchoice}
           style={{
-            height: "100px",
-            width: "900px",
-            marginLeft: "22%",
+            height: "95px",
+            width: "950px",
+            marginLeft: "20%",
             marginTop: "40px",
           }}
         />
