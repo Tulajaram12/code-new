@@ -6,6 +6,7 @@ import fast from "./Image/fast-delivery.png";
 import support from "./Image/support.png";
 import verified from "./Image/verified.png";
 import India from "./Image/india.png";
+import playbutton from "./Image/playicon.png"
 
 export default function Middleware() {
   return (
@@ -13,6 +14,7 @@ export default function Middleware() {
       <div>
         <img src={Experience} alt="Experience" className="Exp" />
         <img src={videoframe} alt="videoframe" className="videoframe" />
+        <img src={playbutton} alt="playicon" className="playicon"></img>
       </div>
       <div className="rowsE">
         <div>
