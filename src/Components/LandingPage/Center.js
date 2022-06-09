@@ -8,7 +8,7 @@ import teddy from "./Image/teddy.png";
 import flower from "./Image/flowers.png";
 import watch from "./Image/watch.png";
 import batman from "./Image/lego Batman.png";
-import "./Landing.css";
+import "./Center.css";
 
 export default function Center() {
   return (
@@ -27,44 +27,112 @@ export default function Center() {
       <div className="para">
         <p>Umpteen options to choose from in all price range!</p>
       </div>
-      <div className="cards" style={{ display: "flex" }}>
-        <div className="cardd">
+      <div
+        className="cards"
+        style={{
+          display: "flex",
+          marginLeft: "19%",
+        }}
+      >
+        <div
+          className="card cardd"
+          style={{ width: "200px", border: "none", backgroundColor: "#c9ffe2" }}
+        >
           <img className="card-image-top" src={shoe} alt="shoe" />
-          <div className="card-body d-grid">
-            <button className="btn">Shop now</button>
-          </div>
+          <a
+            href="#"
+            className=" btn btn-info"
+            style={{ position: "absolute", marginTop: "155px", width: "200px" }}
+          >
+            Show now
+          </a>
         </div>
-        <div className="carddshirt">
+        <div
+          className="card dressImage"
+          style={{
+            width: "200px",
+            height: "130px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
           <img className="card-image-top" src={dress} alt="dress" />
         </div>
-        <div className="carddcake">
+        <div
+          className="card cardd"
+          style={{
+            width: "200px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
           <img className="card-image-top" src={cake} alt="cake" />
         </div>
-        <div className="cardcloth">
+        <div
+          className="card Cloth"
+          style={{
+            width: "200px",
+            height: "130px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
           <img className="card-image-top" src={cloth} alt="cloth" />
         </div>
       </div>
 
-      <span>
-        <div className="cards" style={{ display: "flex" }}>
-          <div className="cardteddy">
-            <img className="card-image-top" src={teddy} alt="teddy" />
-          </div>
-          <div className="cardflower">
-            <img className="card-image-top" src={flower} alt="flower" />
-          </div>
-          <div className="cardwatch">
-            <img className="card-image-top" src={watch} alt="watch" />
-          </div>
-          <div className="cardbatman">
-            <img className="card-image-top" src={batman} alt="batman" />
-          </div>
+      <div className="cards" style={{ display: "flex", marginLeft: "19%" }}>
+        <div
+          className="card Teddy"
+          style={{
+            width: "200px",
+            height: "130px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
+          <img className="card-image-top" src={teddy} alt="teddy" />
         </div>
-      </span>
-      <div className="explo">
-        <button className="btnlink">
+
+        <div
+          className="card Flower"
+          style={{
+            width: "200px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
+          <img className="card-image-top" src={flower} alt="flower" />
+        </div>
+
+        <div
+          className="card Watch"
+          style={{
+            width: "200px",
+            height: "130px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
+          <img className="card-image-top" src={watch} alt="watch" />
+        </div>
+
+        <div
+          className="card Batman"
+          style={{
+            width: "200px",
+            border: "none",
+            backgroundColor: "#c9ffe2",
+          }}
+        >
+          <img className="card-image-top" src={batman} alt="batman" />
+        </div>
+      </div>
+
+      <div className="explo" style={{ marginTop: "15px" }}>
+        <a href="#" className="btnlink">
           Explore more <span className="bi bi-arrow-right-short"></span>
-        </button>
+        </a>
       </div>
     </div>
   );

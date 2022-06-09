@@ -1,0 +1,111 @@
+.plenty img {
+  width: 800px;
+  margin-left: 25%;
+  margin-top: 58px;
+}
+.arrangebtn {
+  /* justify-content: space-around; */
+  margin-left: 24%;
+  margin-right: 18%;
+  display: table-footer-group;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.arrangebtn button {
+  border: 1px solid #225779;
+  width: 136px;
+  height: 38px;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.para {
+  margin-top: 20px;
+  margin-left: 35%;
+  font-size: 22px;
+}
+.cardd {
+  margin-right: 40px;
+}
+.cardd img {
+  padding: 35px;
+  width: 200px;
+  height: 200px;
+  margin-top: -12px;
+}
+.dressImage {
+  margin-right: 40px;
+  height: 161px;
+}
+.dressImage img {
+  padding: 15px;
+  width: 140px;
+  height: 151px;
+  margin-left: 28px;
+  margin-top: -10px;
+}
+.Cloth {
+  margin-right: 40px;
+  height: 161px;
+}
+.Cloth img {
+  padding: 5 px;
+  width: 140px;
+  height: 151px;
+  margin-left: 25px;
+}
+
+.Teddy {
+  margin-right: 40px;
+  height: 161px;
+  margin-top: 25px;
+}
+.Teddy img {
+  padding: 15px;
+  width: 140px;
+  height: 151px;
+  margin-left: 28px;
+  margin-top: -10px;
+}
+
+.Flower {
+  margin-right: 40px;
+  margin-top: -42px;
+}
+.Flower img {
+  padding: 35px;
+  width: 200px;
+  height: 200px;
+}
+
+.Watch {
+  margin-right: 40px;
+  height: 161px;
+  margin-top: 25px;
+}
+.Watch img {
+  padding: 25px;
+  width: 130px;
+  height: 161px;
+  margin-left: 30px;
+  margin-top: -12px;
+}
+
+.Batman {
+  margin-right: 40px;
+  margin-top: -42px;
+}
+.Batman img {
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.explo span {
+  position: absolute;
+  margin-top: 2px;
+}
+.explo a {
+  font-weight: 600;
+  margin-left: 47%;
+}
