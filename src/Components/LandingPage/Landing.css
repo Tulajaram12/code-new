@@ -249,6 +249,13 @@ body {
   height: 400px;
   /* margin-left: 40px; */
 }
+.playicon {
+  width: 4%;
+  height: 4%;
+  margin-left: 49%;
+  margin-top: -481px;
+}
+
 .rowsE {
   margin-top: 20px;
 }
@@ -555,24 +562,25 @@ body {
   margin-top: 51px;
   height: 70px;
   width: 1041px;
-  margin-left: 186px;
+  margin-left: 240px;
 }
 .shareus {
+  font-weight: 500;
   display: inline-block;
-  margin-left: 470px;
-  margin-top: 50px;
+  margin-left: 500px;
+  margin-top: 45px;
   height: 47px;
   width: 495px;
 }
 .sharebtn {
-  margin-left: 430px;
+  margin-left: 460px;
   width: 226px;
   height: 40px;
   border-radius: 8px;
   background: #225779;
 }
 .enquirebtn {
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 27px;
   width: 226px;
   height: 40px;
