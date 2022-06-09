@@ -7,6 +7,7 @@ import Middleware from "./Components/LandingPage/Middle";
 import Downware from "./Components/LandingPage/Downware";
 import Footer from "./Components/LandingPage/Footer";
 import Custom from "./Components/LandingPage/Custom";
+import Greenboard from "./Components/LandingPage/Greenboard";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Center />
         <Downware />
         <Custom />
+        <Greenboard />
         <hr />
         <Footer />
       </div>

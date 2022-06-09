@@ -540,3 +540,43 @@ body {
   margin-top: 10px;
   margin-left: 270px;
 }
+
+/*  ramesh green bloard added */
+
+.greenBoard {
+  background-image: url("./Image/green board.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1495px;
+  height: 331px;
+  margin-top: 10px;
+}
+.inimg {
+  margin-top: 51px;
+  height: 70px;
+  width: 1041px;
+  margin-left: 186px;
+}
+.shareus {
+  display: inline-block;
+  margin-left: 470px;
+  margin-top: 50px;
+  height: 47px;
+  width: 495px;
+}
+.sharebtn {
+  margin-left: 430px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #225779;
+}
+.enquirebtn {
+  margin-left: 70px;
+  margin-top: 27px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #57cc98;
+  border: 3px solid #225779;
+}
