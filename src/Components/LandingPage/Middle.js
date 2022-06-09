@@ -6,7 +6,10 @@ import fast from "./Image/fast-delivery.png";
 import support from "./Image/support.png";
 import verified from "./Image/verified.png";
 import India from "./Image/india.png";
-import playbutton from "./Image/playicon.png"
+import Baloon from "./Image/Baloon.png";
+import Gifts from "./Image/Gifts.png";
+import Box from "./Image/Box.png";
+import playbutton from "./Image/playicon.png";
 
 export default function Middleware() {
   return (
@@ -21,6 +24,19 @@ export default function Middleware() {
           <img src={Choose} alt="Choose" className="choose" />
         </div>
         <div className="rowsE1">
+          <div>
+            <div style={{ position: "relative", display: "flex" }}>
+              <div className="baloon" style={{ position: "relative" }}>
+                <img src={Baloon} alt="Baloon" className="image1" />
+              </div>
+              <div className="baloon" style={{ position: "relative" }}>
+                <img src={Box} alt="Box" className="image2" />
+              </div>
+              <div className="baloon" style={{ position: "relative" }}>
+                <img src={Gifts} alt="Gifts" className="image3" />
+              </div>
+            </div>
+          </div>
           <div className="row" style={{ paddingTop: "30px" }}>
             <div className="col-2">
               <div className="fastd">
@@ -29,18 +45,26 @@ export default function Middleware() {
                   <div style={{ position: "absolute", marginTop: "60px" }}>
                     <h6 className="col-2">Fast delivery</h6>
                     <div className="communderline"></div>
-                    <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
-                      Lorem ipsum dolor sit amet consectetur?
+                    <p
+                      style={{ marginLeft: "80px", fontWeight: "500" }}
+                      className="mt-2 Pfamily"
+                    >
+                      Sending in some real quick appreciation <br /> shouldn't
+                      be a problem with UnBox
                     </p>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{ marginTop: "90px" }}>
                   <img src={verified} alt="support" className="mt-5 back" />
                   <div style={{ position: "absolute", marginTop: "60px" }}>
                     <h6 className="col-2">Verified brands</h6>
                     <div className="communderline "></div>
-                    <p className="mt-2 Pfamily" style={{ marginLeft: "80px" }}>
-                      Lorem ipsum dolor sit amet consectetur?
+                    <p
+                      className="mt-2 Pfamily"
+                      style={{ marginLeft: "80px", fontWeight: "500" }}
+                    >
+                      Brands that are totally gift worthy <br /> with your
+                      branding
                     </p>
                   </div>
                 </div>
@@ -54,20 +78,28 @@ export default function Middleware() {
                     Pan India fullfillment
                   </h6>
                   <div className="communderline"></div>
-                  <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
-                    Lorem ipsum dolor sit amet consectetur?
+                  <p
+                    style={{ marginLeft: "80px", fontWeight: "500" }}
+                    className="mt-2 Pfamily"
+                  >
+                    No matter where your employees <br /> are, near or far,
+                    we've got it covered
                   </p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row" style={{ marginTop: "90px" }}>
                 <img className="mt-5" src={support} alt="support" />
                 <div style={{ position: "absolute", marginTop: "47px" }}>
                   <h6 style={{ display: "inline" }} className="col-2">
                     24*7 services
                   </h6>
                   <div className="communderline"></div>
-                  <p style={{ marginLeft: "80px" }} className="mt-2 Pfamily">
-                    Lorem ipsum dolor sit amet consectetur?
+                  <p
+                    style={{ marginLeft: "80px", fontWeight: "500" }}
+                    className="mt-2 Pfamily"
+                  >
+                    Dreaming of gifts at midnight? We <br />
+                    hear you, loud & clear 24*7
                   </p>
                 </div>
               </div>
