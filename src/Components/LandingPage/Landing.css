@@ -574,47 +574,57 @@ body {
 /* ramesh changes */
 
 .downware1 {
-  height: 300px;
-  width: 1440px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 30px;
+  padding: 10px;
+}
+
+.box1 {
+  display: flex;
+  flex-grow: 1;
+}
+.box2 {
+  text-align: center;
+  text-decoration: solid;
+  display: flex;
+}
+.box3 {
+  display: flex;
+}
+.box4 {
+  display: flex;
 }
 
 .circle1 {
   width: 209px;
   height: 209px;
-  margin-top: 310px;
+  margin-top: 10px;
   border-radius: 100px;
   border-color: #000000;
   background-color: #ddf2ff;
-  margin-left: 209px;
+  margin-left: 270px;
   display: flex;
-  /* margin-bottom: -24px; */
 }
 .circle2 {
   width: 209px;
   height: 209px;
-  margin-top: -235px;
+  margin-top: 12px;
   border-radius: 100px;
   border-color: #000000;
-  background-color: #ddf2ff;
-  margin-left: 615px;
+  background-color: #c9ffe2;
+  margin-left: 183px;
   display: flex;
-}
-.imgcir2 {
-  height: 190px;
-  width: 120px;
-  margin-left: 20%;
 }
 .circle3 {
   width: 209px;
   height: 209px;
-  margin-top: -233px;
+  margin-top: 15px;
   border-radius: 100px;
   border-color: #000000;
   background-color: #ddf2ff;
-  margin-left: 1021px;
+  margin-left: 215px;
+  display: flex;
 }
 
 .imgcir3 {
@@ -623,7 +633,11 @@ body {
   margin-left: 20%;
   margin-top: 10%;
 }
-
+.imgcir2 {
+  height: 190px;
+  width: 120px;
+  margin-left: 20%;
+}
 .imgcir1 {
   height: 119px;
   width: 132px;
@@ -632,6 +646,17 @@ body {
 }
 
 .crcl1text {
-  margin-left: 14%;
-  margin-top: 10%;
+  font-weight: 490;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+.crcl2text {
+  font-weight: 490;
+  margin-left: 260px;
+  margin-top: 10px;
+}
+.crcl3text {
+  font-weight: 490;
+  margin-top: 10px;
+  margin-left: 270px;
 }
