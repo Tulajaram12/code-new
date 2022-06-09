@@ -4,11 +4,9 @@ import shirt from "./Image/shirt.png";
 import hamper from "./Image/hamper.png";
 import yourchoice from "./Image/yourchoice.png";
 
-
 export default function Custom() {
   return (
     <>
-     
       <div>
         <img
           src={yourchoice}
