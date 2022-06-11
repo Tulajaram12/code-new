@@ -9,12 +9,17 @@ import flower from "./Image/flowers.png";
 import watch from "./Image/watch.png";
 import batman from "./Image/lego Batman.png";
 import "./Center.css";
+import Stars from "./Image/stars.png";
+import gift from "./Image/gift3.png";
 
 export default function Center() {
   return (
     <div>
       <div className="plenty">
         <img src={plenty} alt="plenty" />
+      </div>
+      <div className="stars">
+        <img src={Stars} alt="Stars" />
       </div>
       <div className="btn-toolbar arrangebtn">
         <button className="btn">New joinee-kits</button>
@@ -31,18 +36,28 @@ export default function Center() {
         className="cards"
         style={{
           display: "flex",
-          marginLeft: "19%",
+          marginLeft: "12%",
         }}
       >
         <div
           className="card cardd"
-          style={{ width: "200px", border: "none", backgroundColor: "#c9ffe2" }}
+          style={{
+            width: "260px",
+            height: "200px",
+            border: "none",
+            backgroundColor: "#C9FFE2",
+          }}
         >
           <img className="card-image-top" src={shoe} alt="shoe" />
           <a
             href="#"
             className=" btn btn-info"
-            style={{ position: "absolute", marginTop: "155px", width: "200px" }}
+            style={{
+              position: "absolute",
+              marginTop: "198px",
+              width: "260px",
+              backgroundColor: "#225779",
+            }}
           >
             Show now
           </a>
@@ -50,8 +65,8 @@ export default function Center() {
         <div
           className="card dressImage"
           style={{
-            width: "200px",
-            height: "130px",
+            width: "261px",
+            height: "165px",
             border: "none",
             backgroundColor: "#c9ffe2",
           }}
@@ -61,9 +76,10 @@ export default function Center() {
         <div
           className="card cardd"
           style={{
-            width: "200px",
+            width: "260px",
+            height: "230px",
             border: "none",
-            backgroundColor: "#c9ffe2",
+            backgroundColor: "#C9FFE2",
           }}
         >
           <img className="card-image-top" src={cake} alt="cake" />
@@ -71,8 +87,8 @@ export default function Center() {
         <div
           className="card Cloth"
           style={{
-            width: "200px",
-            height: "130px",
+            width: "261px",
+            height: "165px",
             border: "none",
             backgroundColor: "#c9ffe2",
           }}
@@ -81,12 +97,12 @@ export default function Center() {
         </div>
       </div>
 
-      <div className="cards" style={{ display: "flex", marginLeft: "19%" }}>
+      <div className="cards" style={{ display: "flex", marginLeft: "12%" }}>
         <div
           className="card Teddy"
           style={{
-            width: "200px",
-            height: "130px",
+            width: "261px",
+            height: "165px",
             border: "none",
             backgroundColor: "#c9ffe2",
           }}
@@ -97,9 +113,10 @@ export default function Center() {
         <div
           className="card Flower"
           style={{
-            width: "200px",
+            width: "260px",
+            height: "230px",
             border: "none",
-            backgroundColor: "#c9ffe2",
+            backgroundColor: "#C9FFE2",
           }}
         >
           <img className="card-image-top" src={flower} alt="flower" />
@@ -108,8 +125,8 @@ export default function Center() {
         <div
           className="card Watch"
           style={{
-            width: "200px",
-            height: "130px",
+            width: "261px",
+            height: "165px",
             border: "none",
             backgroundColor: "#c9ffe2",
           }}
@@ -120,12 +137,16 @@ export default function Center() {
         <div
           className="card Batman"
           style={{
-            width: "200px",
+            width: "260px",
+            height: "230px",
             border: "none",
-            backgroundColor: "#c9ffe2",
+            backgroundColor: "#C9FFE2",
           }}
         >
           <img className="card-image-top" src={batman} alt="batman" />
+        </div>
+        <div className="gift">
+          <img src={gift} alt="gift" />
         </div>
       </div>
 

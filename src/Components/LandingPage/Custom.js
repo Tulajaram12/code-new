@@ -3,10 +3,19 @@ import lowmoq from "./Image/lowmoq (1).png";
 import shirt from "./Image/shirt.png";
 import hamper from "./Image/hamper.png";
 import yourchoice from "./Image/yourchoice.png";
+import GiftBox from "./Image/GiftBox.png";
+import Spring from "./Image/Spring.png";
+
 
 export default function Custom() {
   return (
     <>
+      <div className="GiftBox">
+        <img src={GiftBox} alt="GiftBox" />
+      </div>
+      <div className="spring">
+        <img src={Spring} alt="Spring" />
+      </div>
       <div>
         <img
           src={yourchoice}

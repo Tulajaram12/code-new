@@ -2,6 +2,8 @@ import "./Landing.css";
 import Towhom from "./Image/towhom.png";
 import whodoyou from "./Image/Clients.jpg";
 import Meeting from "./Image/Meeting.png";
+import Clon from "./Image/Clon.png";
+import Stars from "./Image/star.png";
 
 function App() {
   return (
@@ -12,13 +14,17 @@ function App() {
           <div className="Upon">
             <img src={Meeting} alt="Meeting" />
           </div>
-          <div style={{ marginTop: "330px" }}>
+          <div className="Clon">
+            <img src={Clon} alt="Clone" />
+          </div>
+          <div style={{ marginTop: "345px", marginLeft: "40px" }}>
             <a href="#">
               <span
                 style={{
                   backgroundColor: "#DDF2FF",
                   padding: "5px",
                   borderRadius: "3px",
+                  color: "black",
                 }}
                 className="bi bi-arrow-left"
               ></span>
@@ -29,7 +35,8 @@ function App() {
                   backgroundColor: "#DDF2FF",
                   padding: "5px",
                   borderRadius: "3px",
-                  marginLeft: "8px",
+                  marginLeft: "10px",
+                  color: "black",
                 }}
                 className="bi bi-arrow-right"
               ></span>
@@ -38,8 +45,11 @@ function App() {
         </div>
 
         <div className="col-6 comrades-side">
+          <div className="Singlestar">
+            <img src={Stars} alt="Stars" />
+          </div>
           <div className="whodo">
-            <img src={Towhom} height={150} width={540} />
+            <img src={Towhom} height={150} width={540}  />
           </div>
           <div className="box-example">
             <p style={{ marginBottom: "1px" }}>
