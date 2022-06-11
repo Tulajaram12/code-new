@@ -10,6 +10,9 @@ import Baloon from "./Image/Baloon.png";
 import Gifts from "./Image/Gifts.png";
 import Box from "./Image/Box.png";
 import playbutton from "./Image/playicon.png";
+import Rect from "./Image/Rect.png";
+import Heart from "./Image/Heart.png";
+
 
 export default function Middleware() {
   return (
@@ -18,6 +21,12 @@ export default function Middleware() {
         <img src={Experience} alt="Experience" className="Exp" />
         <img src={videoframe} alt="videoframe" className="videoframe" />
         <img src={playbutton} alt="playicon" className="playicon"></img>
+      </div>
+      <div className="presentation">
+        <img src={Rect} alt="Rect" />
+      </div>
+      <div className="Heart">
+        <img src={Heart} alt="Heart" />
       </div>
       <div className="rowsE">
         <div>

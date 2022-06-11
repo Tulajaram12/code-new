@@ -61,6 +61,20 @@ body {
   border-radius: 10px;
 }
 
+.Rectangle img {
+  position: absolute;
+  margin-top: 429px;
+  width: 100px;
+  height: 140px;
+}
+
+.Designed img {
+  position: absolute;
+  margin-top: 425px;
+  width: 250px;
+  height: 100px;
+  margin-left: 74%;
+}
 .header {
   position: sticky;
   top: 0px;
@@ -249,6 +263,20 @@ body {
   height: 400px;
   /* margin-left: 40px; */
 }
+.presentation {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 21%;
+  margin-top: -40px;
+}
+.Heart img {
+  position: absolute;
+  width: 45.8px;
+  height: 45px;
+  margin-left: 69%;
+  margin-top: 12px;
+}
 .playicon {
   width: 4%;
   height: 4%;
@@ -357,7 +385,7 @@ body {
 
 .box-example {
   text-align: end;
-  margin-right: 100px;
+  margin-right: 45px;
 }
 
 .box-ex {
@@ -365,14 +393,14 @@ body {
   width: 100px;
   height: 38px;
   margin-top: 25px;
-  margin-left: 390px;
+  margin-left: 500px;
   text-decoration: none;
   color: #225779;
 }
 
-.whodo {
-  margin-top: 25px;
-  margin-right: 0px;
+.whodo img {
+  margin-top: 20px;
+  margin-left: 90px;
 }
 
 .downware {
@@ -382,20 +410,35 @@ body {
   margin-right: 5%;
 }
 .comrades img {
-  width: 400px;
-  margin-left: -200px;
+  width: 580px;
+  margin-left: -250px;
   height: 200px;
   margin-top: 90px;
   position: absolute;
   z-index: 0;
 }
 .Upon img {
-  width: 310px;
-  height: 250px;
+  width: 470px;
+  height: 270px;
   position: absolute;
-  margin-top: 65px;
-  margin-left: -150px;
+  margin-top: 50px;
+  margin-left: -190px;
   z-index: 1;
+}
+
+.Clon img {
+  width: 145px;
+  height: 197px;
+  margin-left: -280px;
+  margin-top: -82px;
+  z-index: 2;
+  transform: rotateY(3.8deg);
+}
+.Singlestar img {
+  width: 48px;
+  height: 47px;
+  position: absolute;
+  margin-left: 16%;
 }
 
 /* footers css from om */
@@ -408,17 +451,19 @@ body {
   width: 180px;
 }
 .list-item {
-  margin-top: 15px;
+  margin-top: 25px;
   list-style: none;
 }
 .section2 h5 {
-  font-size: 27px;
+  font-size: 17px;
   color: #225779;
+  font-weight: 700;
 }
 .list-item div {
   color: #000000;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 13px;
+  font-size: 13px;
 }
 .forminput input {
   border: none;
@@ -441,7 +486,7 @@ body {
   margin-left: 30px;
   color: #ffffff;
   margin-bottom: 0%;
-  font-size: 25px;
+  font-size: 15px;
 }
 .submitt {
   position: absolute;
@@ -459,7 +504,29 @@ body {
   margin-top: 25px;
 }
 
+.footerdesign img {
+  width: 200px;
+  height: 210px;
+  margin-left: 100px;
+  margin-bottom: -90px;
+}
 /* ramesh changes */
+
+.GiftBox img {
+  position: absolute;
+  width: 139px;
+  height: 149px;
+  margin-left: 81%;
+  margin-top: -18px;
+}
+
+.spring img {
+  position: absolute;
+  width: 150px;
+  height: 240px;
+  margin-top: 240px;
+  margin-left: 60px;
+}
 
 .downware1 {
   display: flex;
