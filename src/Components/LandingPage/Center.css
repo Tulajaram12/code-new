@@ -8,12 +8,12 @@
   margin-left: 24%;
   margin-right: 18%;
   display: table-footer-group;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
   justify-content: flex-start;
 }
 .arrangebtn button {
   border: 1px solid #225779;
-  width: 136px;
+  width: 7.6rem;
   height: 38px;
   margin-left: 2px;
   border-radius: 5px;
