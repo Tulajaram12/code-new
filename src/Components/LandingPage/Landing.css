@@ -35,6 +35,8 @@ body {
 }
 
 .contentLogo {
+  width: 100%;
+  height: auto;
   margin-top: 180px;
   margin-left: -17px;
 }
@@ -51,11 +53,12 @@ body {
 
 .customizebtn {
   color: #225779;
+  font-weight: 500;
   margin-right: 25px;
   width: 226px;
   height: 40px;
-  background-color: #ddf2ff;
-  border: 1px solid #225779;
+  background-color: unset;
+  border: 3px solid #225779;
   border-radius: 10px;
 }
 
@@ -91,7 +94,8 @@ body {
 
 .navbar ul {
   display: flex;
-
+  text-align: center;
+  margin-left: 140px;
   list-style: none;
 }
 
@@ -384,6 +388,7 @@ body {
 .box-example {
   text-align: end;
   margin-right: 45px;
+  font-weight: 600;
 }
 
 .box-ex {
@@ -408,7 +413,7 @@ body {
   margin-right: 5%;
 }
 .comrades img {
-  width: 580px;
+  width: 570px;
   margin-left: -250px;
   height: 200px;
   margin-top: 90px;
@@ -416,7 +421,7 @@ body {
   z-index: 0;
 }
 .Upon img {
-  width: 470px;
+  width: 440px;
   height: 270px;
   position: absolute;
   margin-top: 50px;
@@ -672,6 +677,9 @@ body {
   width: 495px;
 }
 .sharebtn {
+  color: white;
+  border: #225779;
+  font-weight: 500;
   margin-left: 500px;
   width: 226px;
   height: 40px;

@@ -12,11 +12,10 @@ export default function Greenboard() {
           customized unboxing experience for you!
         </span>
         <div>
-          <button className="sharebtn" style={{ color: "white" }}>
-            {" "}
+          <button className="sharebtn" >
             Send a sample
           </button>
-          <button className="enquirebtn" style={{ color: "#225779" }}>
+          <button className="enquirebtn" style={{ color: "#225779", fontWeight: "500" }}>
             Enquire now
           </button>
         </div>
