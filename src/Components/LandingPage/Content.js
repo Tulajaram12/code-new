@@ -8,7 +8,7 @@ export default function content() {
   return (
     <div className="Middware">
       <div className="contentLogo">
-        <img src={contentLogo} height={152} width={498} />
+        <img src={contentLogo} alt="contentLogo" height={152} width={498} />
       </div>
       <div className="Rectangle">
         <img src={Rectangle} alt="Rectangle" />

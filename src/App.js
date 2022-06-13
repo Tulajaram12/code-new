@@ -20,7 +20,6 @@ function App() {
         <Downware />
         <Custom />
         <Greenboard />
-        <hr />
         <Footer />
       </div>
     </div>
