@@ -29,7 +29,7 @@ export default function content() {
           Explore
           <span className="explorebtn1 bi bi-arrow-right-short"></span>
         </button>
-        <button className="customizebtn">Customize</button>
+        <button className="customizebtn">Enquire now</button>
       </div>
     </div>
   );

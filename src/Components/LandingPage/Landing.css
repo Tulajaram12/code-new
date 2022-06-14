@@ -105,7 +105,7 @@ body {
 }
 
 .status {
-  text-align: right;
+  display: flex;
 }
 
 .navbar-50 {
@@ -123,6 +123,8 @@ body {
 }
 
 .status span:first-of-type {
+  margin-top: 10px;
+  margin-left: 170px;
   margin-right: 20px;
 }
 

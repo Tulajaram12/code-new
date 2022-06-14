@@ -11,8 +11,9 @@ import { Checkbox } from '@mui/material';
 import CloseIcon from "@mui/icons-material/Close";
 import { IconButton } from "@mui/material";
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import Login from './Login';
 
-export default function Login() {
+export default function Signin() {
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = () => {
@@ -25,11 +26,8 @@ export default function Login() {
 
     return (
         <div>
-            <button className='button-design-Signin' onClick={handleClickOpen}>
-                <PhoneIphoneIcon fontSize='large' style={{ backgroundColor: "#57CC98", marginRight: "45px", marginTop: "-4px", borderRadius: "4px" }} />
-                <div>
-                    Sign in with Phone Number
-                </div>
+            <button variant="outlined" className="btn-infobtn" onClick={handleClickOpen}>
+                Log-in
             </button>
             <Dialog open={open} onClose={handleClose}>
                 <form style={{ padding: "25px" }}>
@@ -40,32 +38,38 @@ export default function Login() {
                     </div>
                     <DialogTitle className='welcome-signin' >
                         <h3> Welcome back </h3>
-                        <br /> <h5> Sign in with your Phone No <sup style={{ color: "red" }}>*</sup></h5>
+
+                        <Login />
+
+                        <br /> <h5>Or, sign in with your email<sup style={{ color: "red" }}>*</sup></h5>
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText>
                             <div style={{ fontWeight: "700" }}>
-                                Phone No<sup style={{ color: "red" }}>*</sup>
+                                Email/Username<sup style={{ color: "red" }}>*</sup>
                             </div>
                         </DialogContentText>
 
-                        <TextField fullWidth id="outlined-basic" label="type your Phone Number" variant="outlined" size='small' margin='dense' />
+                        <TextField fullWidth id="outlined-basic" label="Type your email/UserName" variant="outlined" size='small' margin='dense' />
 
                         <DialogContentText>
                             <div style={{ fontWeight: "700" }}>
-                                Enter the OTP<sup style={{ color: "red" }}>*</sup>
+                                Password<sup style={{ color: "red" }}>*</sup>
                             </div>
                         </DialogContentText>
 
-                        <TextField fullWidth id="outlined-basic" label="Enter the OTP to validate your number" variant="outlined" size='small' margin='dense' />
+                        <TextField fullWidth id="outlined-basic" label="Type your password" variant="outlined" size='small' margin='dense' />
 
                         <DialogContentText>
-                            <Checkbox />
-                            Keep me sign in
+                            <div style={{ display: "flex" }}>
+                                <Checkbox />
+                                Keep me sign in
+                                <a>Forgot password?</a>
+                            </div>
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
-                        <button className='button-design-login' onClick={handleClose}>Validate OTP</button>
+                        <button className='button-design-login' onClick={handleClose}>Sign in</button>
                     </DialogActions>
                     <div style={{ color: "red", marginLeft: '8px' }}>
                         <sup>*</sup> Required Fields
