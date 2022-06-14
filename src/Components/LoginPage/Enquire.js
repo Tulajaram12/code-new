@@ -37,7 +37,10 @@ export default function Enquire() {
           </div>
         </DialogTitle>
         <DialogContent>
-          <form style={{ padding: "20px" }} className="formstyle">
+          <form
+            style={{ padding: "20px", paddingBottom: "0px" }}
+            className="formstyle"
+          >
             <dl>
               <dt className="form-lable">
                 Name<sup style={{ color: "red" }}>*</sup>
