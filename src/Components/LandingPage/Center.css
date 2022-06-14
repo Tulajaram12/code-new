@@ -8,7 +8,7 @@
   margin-left: 24%;
   margin-right: 18%;
   display: table-footer-group;
-  flex-wrap:wrap-reverse;
+  flex-wrap: wrap-reverse;
   justify-content: flex-start;
 }
 .arrangebtn button {
@@ -45,9 +45,9 @@
   margin-right: 40px;
 }
 .cardd img {
-  padding: 20px;
-  width: 220px;
-  height: 220px;
+  padding: 1rem;
+  width: 13.6rem;
+  height: 13rem;
   margin-left: 15px;
   transform: rotate(0.97deg);
 }
