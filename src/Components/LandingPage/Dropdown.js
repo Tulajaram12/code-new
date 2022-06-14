@@ -6,10 +6,9 @@ import { NavDropdown } from "react-bootstrap";
 export default function dropdown() {
   return (
     <NavDropdown
-      style={{ color: "#000000" }}
       id="dropdown-basic-button"
       className="dropup"
-      title="Categories"
+      title={<span style={{ color: "black" }}>Categories</span>}
     >
       <div id="dropdown-menu">
         <dropdownMenu href="#/action-1" title="Gifts for New joinee">

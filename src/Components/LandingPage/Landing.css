@@ -15,6 +15,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -50,41 +51,24 @@ body {
   border: 1px solid black;
   border-radius: 10px;
 }
-
-.customizebtn {
-  color: #225779;
-  font-weight: 500;
-  margin-right: 25px;
-  width: 226px;
-  height: 40px;
-  background-color: unset;
-  border: 3px solid #225779;
-  border-radius: 10px;
-}
-
 .Rectangle img {
   position: absolute;
-  margin-top: 429px;
+  margin-top: 223px;
   width: 100px;
   height: 140px;
 }
 
 .Designed img {
   position: absolute;
-  margin-top: 425px;
+  margin-top: 221px;
   width: 250px;
   height: 100px;
   margin-left: 74%;
 }
-.header {
-  position: sticky;
-  top: 0px;
-  margin-top: 20px;
-}
 
 .commn {
+  margin-top: 25px;
   margin-left: 5%;
-
   margin-right: 5%;
 }
 
@@ -164,57 +148,11 @@ body {
   margin: 0%;
   padding: 0%;
 }
-/* .background
-{
-  background-image: url(./image/unbox.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 200vh;
-  height: 600px;
-} */
-/* .header div{
-  margin-top: 20px;
-} */
-/* .commn{
-  margin-left: 5%;
-  margin-right: 5%;
-} */
-/* .arrange-left{
-  float: left;
-} */
-/* .navbar ul{
-  display: flex;
-  list-style: none;
-  margin-left: 130px;
-  margin-top: 10px;
-} */
-/* .width-25{
-  width: 25%;
-} */
-/* .status{
-  text-align: right;
-  margin-top: 10px;
-} */
-/* .navbar-50{
-  width: 50%;
-  
-}
-.width-25{
-  width: 25%;
-} */
-/* .effects li{
- margin-right:70px;
- font-size: 16px;
-} */
-/* .homeabout{
-  margin-top: 8px;
-} */
+
 .status span:first-of-type {
   margin-right: 20px;
 }
-/* .logo img {
-  /* width: 230px; 
-} */
+
 .btnj {
   border: 1px solid #225779;
   background-color: #225779;
@@ -449,10 +387,13 @@ body {
 /* footers css from om */
 
 .footer-section {
-  margin-left: 7%;
   margin-top: 5%;
 }
+.logoF p {
+  margin-left: 3%;
+}
 .logoF img {
+  margin-left: 2%;
   width: 180px;
 }
 .list-item {
@@ -504,8 +445,6 @@ body {
 }
 
 .footer-main {
-  margin-left: 2%;
-  margin-right: 2%;
   margin-top: 25px;
 }
 

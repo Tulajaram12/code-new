@@ -8,12 +8,12 @@
   margin-left: 24%;
   margin-right: 18%;
   display: table-footer-group;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: flex-start;
 }
 .arrangebtn button {
   border: 1px solid #225779;
-  width: 136px;
+  width: 7.6rem;
   height: 38px;
   margin-left: 2px;
   border-radius: 5px;
@@ -45,9 +45,9 @@
   margin-right: 40px;
 }
 .cardd img {
-  padding: 20px;
-  width: 220px;
-  height: 220px;
+  padding: 1rem;
+  width: 13.6rem;
+  height: 13rem;
   margin-left: 15px;
   transform: rotate(0.97deg);
 }

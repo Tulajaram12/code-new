@@ -3,7 +3,6 @@ import "./Landing.css";
 import Logo from "./Image/Logo.png";
 import Dropdown from "./Dropdown.js";
 import { Link } from "react-router-dom";
-import Login from "../LoginPage/Login";
 import Signin from "../LoginPage/Signin";
 
 export default function Navbar() {
@@ -14,7 +13,13 @@ export default function Navbar() {
         <div className="header">
           <div className="logo arrange-left width-25">
             <div>
-              <img src={Logo} height="77" alt="Logo" width="179" margin-top="10" />
+              <img
+                src={Logo}
+                height="77"
+                alt="Logo"
+                width="179"
+                margin-top="10"
+              />
             </div>
           </div>
           <div className="navbar arrange-left navbar-50">
