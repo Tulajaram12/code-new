@@ -33,7 +33,7 @@ export default function Center() {
         <p>Umpteen options to choose from in all price range!</p>
       </div>
       <div
-        className="cards"
+        className="cards d-flex flex-wrap flex-row"
         style={{
           display: "flex",
           marginLeft: "12%",
@@ -42,8 +42,8 @@ export default function Center() {
         <div
           className="card cardd"
           style={{
-            width: "260px",
-            height: "200px",
+            width: "16.2rem",
+            height: "12.5rem",
             border: "none",
             backgroundColor: "#C9FFE2",
           }}
@@ -51,11 +51,13 @@ export default function Center() {
           <img className="card-image-top" src={shoe} alt="shoe" />
           <a
             href="#"
-            className=" btn btn-info"
+            className=" btn btn-info card-header"
             style={{
               position: "absolute",
               marginTop: "198px",
-              width: "260px",
+              width: "16.2rem",
+              height: "3rem",
+              fontSize: "1.2rem",
               backgroundColor: "#225779",
             }}
           >
@@ -97,7 +99,10 @@ export default function Center() {
         </div>
       </div>
 
-      <div className="cards" style={{ display: "flex", marginLeft: "12%" }}>
+      <div
+        className="cards d-flex flex-wrap flex-row"
+        style={{ display: "flex", marginLeft: "12%" }}
+      >
         <div
           className="card Teddy"
           style={{

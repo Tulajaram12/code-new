@@ -1,0 +1,56 @@
+.title {
+  font-size: 1.6rem;
+  color: #225779;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.Tagline {
+  font-size: 1rem;
+  color: #225779;
+  font-weight: 600;
+  position: relative;
+}
+.formstyle dt {
+  margin-bottom: 0.7rem;
+  font-weight: 400;
+}
+.headercontent {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.dailogbox {
+  height: 50rem;
+}
+.Enquire button {
+  border: 3px solid #225779;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #225779;
+  width: 226px;
+  height: 40px;
+  text-align: center;
+}
+
+h1:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #e5e5e5;
+  position: absolute;
+  top: 12.5%;
+  left: 45px;
+}
+h1:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #e5e5e5;
+  position: absolute;
+  top: 12.5%;
+  right: 45px;
+  box-shadow: 0px 2px 3px #e5e5e5;
+  border-bottom-right-radius: 1px;
+}
