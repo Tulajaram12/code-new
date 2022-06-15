@@ -6,8 +6,8 @@ files:
     destination: /home/ubuntu/aws-code-deploy-demo
 
 hooks:
-  ApplicationStop:
-    - location: aws-scripts/app-stop.sh
+  ApplicationStart:
+    - location: aws-scripts/app-start.sh
       timeout: 300
 
   BeforeInstall:
@@ -20,4 +20,8 @@ hooks:
 
   ApplicationStart:
     - location: aws-scripts/app-start.sh
+      timeout: 300
+
+  ApplicationStop:
+    - location: aws-scripts/app-stop.sh
       timeout: 300
