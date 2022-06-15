@@ -16,7 +16,7 @@ export default function Custom() {
         <img src={Spring} alt="Spring" />
       </div>
       <div>
-        <img
+        <img alt="yourchoice"
           src={yourchoice}
           style={{
             height: "95px",
@@ -29,19 +29,19 @@ export default function Custom() {
       <div className="Downware1">
         <div className="box1">
           <div className="circle1">
-            <img className="imgcir1" src={lowmoq} />
+            <img className="imgcir1" alt="lowmoq" src={lowmoq} />
           </div>
           <div className="circle2">
-            <img className="imgcir2" src={shirt} />
+            <img className="imgcir2" alt="shirt" src={shirt} />
           </div>
           <div className="circle3">
-            <img className="imgcir3" src={hamper} />
+            <img className="imgcir3" alt="hamper" src={hamper} />
           </div>
         </div>
 
         <div className="box2">
           <a
-            href=""
+            href="/"
             style={{
               marginTop: "2px",
               fontWeight: "bolder",
@@ -54,7 +54,7 @@ export default function Custom() {
             Low MOQ ?
           </a>
           <a
-            href=""
+            href="/"
             style={{
               marginTop: "2px",
               fontWeight: "bolder",
@@ -67,7 +67,7 @@ export default function Custom() {
             Brand Customization ?
           </a>
           <a
-            href=""
+            href="/"
             style={{
               marginTop: "2px",
               fontWeight: "bolder",

@@ -1,9 +1,12 @@
 import React from "react";
 import "./Landing.css";
 import Logo from "./Image/Logo.png";
-//import { Link } from 'react-router-dom';
 import Dropdown from "./Dropdown.js";
-export default function navbar() {
+import { Link } from "react-router-dom";
+import Signin from "../LoginPage/Signin";
+
+export default function Navbar() {
+
   return (
     <>
       <div className="commn">
@@ -21,8 +24,9 @@ export default function navbar() {
           </div>
           <div className="navbar arrange-left navbar-50">
             <ul className="effects">
-              <li className="HomeAbout">Home</li>
-
+              <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+                <li className="HomeAbout">Home</li>
+              </Link>
               <li>
                 <Dropdown />
               </li>
@@ -32,7 +36,7 @@ export default function navbar() {
           </div>
           <div className="status arrange-left width-26">
             <span className="bi bi-search"></span>
-            <button className="btn-infobtn">Log-In</button>
+            <Signin />
           </div>
         </div>
       </div>

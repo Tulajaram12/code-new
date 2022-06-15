@@ -15,10 +15,10 @@ export default function dropdown() {
           New Joinee
         </dropdownMenu>
         <dropdownMenu href="#/action-1">Anniversary</dropdownMenu>
-        <dropdownMenu href="#/action-1" title="gifts for Special Ocasions">
+        <dropdownMenu href="#/action-1" title="Gifts for Special Ocasions">
           Occasion-based
         </dropdownMenu>
-        <dropdownMenu href="#/action-1" title="gifts for Festivals">
+        <dropdownMenu href="#/action-1" title="Gifts for Festivals">
           festive
         </dropdownMenu>
         <dropdownMenu href="#/action-1">General</dropdownMenu>
