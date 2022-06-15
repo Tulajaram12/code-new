@@ -50,7 +50,7 @@ export default function Center() {
         >
           <img className="card-image-top" src={shoe} alt="shoe" />
           <a
-            href="#"
+            href="/"
             className=" btn btn-info card-header"
             style={{
               position: "absolute",
@@ -156,7 +156,7 @@ export default function Center() {
       </div>
 
       <div className="explo" style={{ marginTop: "15px" }}>
-        <a href="#" className="btnlink">
+        <a href="/" className="btnlink">
           Explore more <span className="bi bi-arrow-right-short"></span>
         </a>
       </div>

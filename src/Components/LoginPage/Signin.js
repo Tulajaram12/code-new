@@ -10,7 +10,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { Checkbox } from '@mui/material';
 import CloseIcon from "@mui/icons-material/Close";
 import { IconButton } from "@mui/material";
-import Login from './Login';
+// import Login from './Login';
 
 export default function Signin() {
     const [open, setOpen] = React.useState(false);
@@ -35,11 +35,13 @@ export default function Signin() {
                         </IconButton>
                     </div>
                     <DialogTitle className='welcome-signin' >
-                        <h3> Welcome back </h3>
+                        <div>
+                            <h3> Welcome back </h3>
 
-                        <Login />
+                            {/* <Login /> */}
 
-                        <br /> <h5>Or, sign in with your email<sup style={{ color: "red" }}>*</sup></h5>
+                            <br /> <h5>Or, sign in with your email<sup style={{ color: "red" }}>*</sup></h5>
+                        </div>
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText>
@@ -62,7 +64,7 @@ export default function Signin() {
                             <div style={{ display: "flex" }}>
                                 <Checkbox />
                                 Keep me sign in
-                                <a>Forgot password?</a>
+                                <a href='/'>Forgot password?</a>
                             </div>
                         </DialogContentText>
                     </DialogContent>
