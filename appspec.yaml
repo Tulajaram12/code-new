@@ -8,7 +8,7 @@ files:
 hooks:
   ApplicationStart:
     - location: aws-scripts/app-start.sh
-      timeout: 300
+      timeout: 200
 
   BeforeInstall:
     - location: aws-scripts/before-install.sh
